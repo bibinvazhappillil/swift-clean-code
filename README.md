@@ -30,6 +30,33 @@ Separate the responsibility into multiple classes and function
   }
 ```
 
+```swift
+  class CalorieManager {
+    init() {}
+    
+    private func calculateCalorie() {
+      var calorie = ...
+      ...
+      ...
+      
+      if (calorie > 1000) {
+        //Inform the user
+        AlertManager.show(message: "You exceedes todays calorie limit")
+      }
+      
+    }
+  }
+  
+  
+  class AlertManager {
+  
+    static func show(message: String) {
+      print(message)
+    }
+    
+  }
+```
+
 
 ## Open Close Principle
 ## Liskov Substitution Principle
