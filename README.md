@@ -14,7 +14,7 @@
 Separate the responsibility into multiple classes and function 
 
 ```swift
-  Class CalorieManager {
+  class CalorieManager {
     init() {}
     
     private func calculateCalorie() {
