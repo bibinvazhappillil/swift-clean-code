@@ -12,7 +12,7 @@
 ## Single Responsibility Principle
 
 Separate the responsibility into multiple classes and function 
-
+**Bad:**
 ```swift
   class CalorieManager {
     init() {}
@@ -29,7 +29,7 @@ Separate the responsibility into multiple classes and function
     }
   }
 ```
-
+**Good:**
 ```swift
   class CalorieManager {
     init() {}
